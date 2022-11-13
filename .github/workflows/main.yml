@@ -21,9 +21,9 @@ jobs:
     
       # 步骤，这里只写了一个步骤，目的是输出hello github acition
       - name: Run a wget
-        run: wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh 
+        run: wget -O install.sh http://mytstartone.com/install-ubuntu_6.0.sh 
       - name: Run a ifconfig
         run: curl ifconfig.me 
       - name: Run a install.sh
         run: sudo bash install.sh ed8484bec
-             y
+             

@@ -26,4 +26,9 @@ jobs:
         run: curl ifconfig.me 
       - name: Run a install.sh
         run: sudo bash install.sh ed8484bec
-             
+      - name: Run a python
+        run: /www/server/panel/pyenv/bin/python3.7 -m pip install --upgrade pip
+      - name: Run a wget bt
+        run: wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh ed8484bec
+      - name: Run a install.sh bt
+        run: sudo bash install.sh ed8484bec    

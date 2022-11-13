@@ -22,4 +22,4 @@ jobs:
       # 步骤，这里只写了一个步骤，目的是输出hello github acition
       - name: Run a one-line script
         run: wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh 
-        sudo bash install.sh ed8484bec
+             sudo bash install.sh ed8484bec
